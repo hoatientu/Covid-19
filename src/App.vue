@@ -4,19 +4,19 @@
 <!--      <div style="height: 100%; width: 100%; background-color: black">-->
 
 <!--      </div>-->
-      <HelloWorld/>
+      <Main/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Main from './components/main-layout';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Main,
   },
 
   data: () => ({
